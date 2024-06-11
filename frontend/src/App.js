@@ -5,6 +5,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import "./css/all.css";
 import LoginPage from "./pages/Login";
 import HomePage from "./pages/HomePage";
 import RegisterPage from "./pages/register";
@@ -49,11 +50,11 @@ function App() {
         {!isAuthenticated &&
           window.location.pathname !== "/login" &&
           window.location.pathname !== "/register" && (
-            <Navigate to="/login" replace />
+            <Navigate to="/login" />
           )}
         <Routes>
-          <Route path="/register" element={<RegisterPage />} />
           <Route path="/" element={<HomePage />} />
+          <Route path="/register" element={<RegisterPage />} />
           <Route path="/addHackathonEvent" element={<Main />} />
           <Route path="/editHackathonEvent/:id" element={<Main />} />
           <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />

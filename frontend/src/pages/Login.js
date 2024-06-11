@@ -26,6 +26,10 @@ const Login = ({ onLogin }) => {
             });
     };
 
+    const handleRegisterRedirect = () => {
+        navigate('/register');
+    };
+
     return (
         <div className="login-container">
             <h2>Login</h2>
@@ -55,6 +59,10 @@ const Login = ({ onLogin }) => {
                     Login
                 </button>
             </form>
+            <h3 style={{ marginTop: "10px" }}>Don't have an account?</h3>
+            <button style={{ marginTop: "10px" }} onClick={handleRegisterRedirect} className="login-button">
+                Register Now?
+            </button>
         </div>
     );
 };

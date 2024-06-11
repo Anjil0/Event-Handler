@@ -8,5 +8,10 @@
     "id": 2,
     "email": "anjil@gmail.com",
     "password": "$2b$10$h08Cg.7Mr/lKcPG4.EP63.0mvtJInbTPs43/0ib5k1X3/m0DA3cIu"
+  },
+  {
+    "id": 3,
+    "email": "angilneupane222@gmail.com",
+    "password": "$2b$10$W/gHLGHKMBs0tLqqi6yhWOsLp9nUjjXA9wNOaqiWqyj7bvX2szKSa"
   }
 ]
