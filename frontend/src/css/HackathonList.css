@@ -1,0 +1,87 @@
+.hackathon-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hackathon-list-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-event-link {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.add-event-link:hover {
+    background-color: #0056b3;
+}
+
+.hackathon-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hackathon-list-item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.hackathon-title {
+    margin-top: 0;
+}
+
+.hackathon-description {
+    margin-bottom: 10px;
+}
+
+.hackathon-participants {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hackathon-date {
+    margin-bottom: 5px;
+}
+
+.hackathon-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.edit-link {
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.edit-link:hover {
+    background-color: #1e7e34;
+}
