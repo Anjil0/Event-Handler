@@ -1,13 +1,13 @@
 const fs = require('fs');
 const path = './dataEvents.json';
 
-// Helper function to read event data from JSON file
+// Read event data from JSON file
 const readEventData = () => {
     const data = fs.readFileSync(path);
     return JSON.parse(data);
 };
 
-// Helper function to write event data to JSON file
+// Write event data to JSON file
 const writeEventData = (data) => {
     fs.writeFileSync(path, JSON.stringify(data, null, 2));
 };
