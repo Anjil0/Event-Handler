@@ -1,7 +1,7 @@
 # Event Management Application
 
 ## Description
-This is a simple event management application for managing events such as hackathons events. The application allows organizers and users to perform CRUD operations on events.
+This is a simple event management application for managing events such as hackathons events. The APP allows organizers and users to perform CRUD operations on events.
 
 ## Features
 - Create, Read, Update, and Delete (CRUD) events from json files.
