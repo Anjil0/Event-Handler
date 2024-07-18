@@ -14,6 +14,7 @@ This is a simple event management application for managing events such as hackat
 - Node.js
 - npm
 - React
+- Express js
 
 ## Setup Instructions
 
