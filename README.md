@@ -1,4 +1,4 @@
-# Event Management Application
+# Event Management Application (React and node js)
 
 ## Description
 This is a simple event management application for managing events such as hackathons events. The APP allows organizers and users to perform CRUD operations on events.
