@@ -9,36 +9,11 @@ This is a simple event management application for managing events such as hackat
 - Authentication for performing CRUD operations.(Login Validation)
 - Client-side and server-side validation On login.
 
-## Requirements
+## Tech Used
 
 - Node.js
 - npm
 - React
 - Express js
-
-## Setup Instructions
-
-## Clone the Repo at first
-
-### Backend
-1. Navigate to the `backend` directory:
-    cd backend
-
-2. Install the dependencies:
-    npm install
-
-3. Start the server:
-    node app.js
-
-### Frontend
-Navigate to the `frontend` directory:
-    cd frontend
-
-2. Install the dependencies:
-    npm i
-
-3. Start the React development server:
-    npm start
-
 
 This project liscenced to anjil nwupane
